@@ -20,6 +20,15 @@ pkg update -y && pkg install -y curl wget git ca-certificates aria2 && curl -sSL
 
 ```
 
+### One-liner install (Ubuntu)
+```bash
+sudo apt update -y && \
+sudo apt install -y curl wget git ca-certificates aria2 && \
+curl -sSL https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/v0.0.2/name_setup.sh -o name_setup.sh && \
+chmod +x name_setup.sh && \
+./name_setup.sh
+```
+
 ### What this does
 
 * Updates the package list
