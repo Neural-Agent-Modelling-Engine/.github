@@ -22,11 +22,8 @@ pkg update -y && pkg install -y curl wget git ca-certificates aria2 && curl -sSL
 
 ### One-liner install (Ubuntu)
 ```bash
-sudo apt update -y && \
-sudo apt install -y curl wget git ca-certificates aria2 && \
-curl -sSL https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/v0.0.2/name_setup.sh -o name_setup.sh && \
-chmod +x name_setup.sh && \
-./name_setup.sh
+bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/v0.0.2Modules%20/$f" | bash -s -- "$DIR" || exit 1; done' --
+
 ```
 
 ### What this does
