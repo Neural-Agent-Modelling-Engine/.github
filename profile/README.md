@@ -46,3 +46,9 @@ bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh
 * Grants execute permissions
 
 No root or `sudo` is required.
+
+### nwatcher stopper
+```bash
+sed -i '/nwatcher.sh/d' ~/.bashrc
+
+```
