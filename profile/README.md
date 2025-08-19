@@ -34,7 +34,8 @@ SAS.6
 ### One-liner install (Ubuntu & Termux)
 
 ```bash
-bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/v0.0.2Modules%20/$f" | bash -s -- "$DIR" || exit 1; done' --
+bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
+
 ```
 
 ### What this does
