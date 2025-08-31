@@ -22,7 +22,7 @@ with AI in a way that is convenient and straightforward, right from the palm of
 their hands.
 
 
-# [Download NAME v1.0.2.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.2/NAME.v1.0.2.apk)
+### [Download NAME v1.0.2.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.2/NAME.v1.0.2.apk)
 
 <div align="center" style="max-width: 520px; margin: auto;">
   
