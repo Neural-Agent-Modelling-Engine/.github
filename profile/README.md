@@ -22,11 +22,11 @@ with AI in a way that is convenient and straightforward, right from the palm of
 their hands.
 
 
-### [Download NAME v1.0.3.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.3/NAME.v1.0.3.apk)
+### [Download NAME v1.0.4.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.4/NAME.v1.0.4.apk)
 
 <div align="center" style="max-width: 520px; margin: auto;">
   
-![v1 0 3](https://github.com/user-attachments/assets/b00e195e-23db-4c85-b679-be118add19fd)
+![v1 0 4](https://github.com/user-attachments/assets/21756b7c-2090-452c-ab3e-98c9affd8161)
 
 
 </div>
