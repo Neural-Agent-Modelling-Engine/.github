@@ -5,10 +5,6 @@
 
 <img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://github.com/user-attachments/assets/7f333231-a3bd-4087-a20c-a2b880d14a13" />
 
-
-<img width="1920" height="1080" alt="Architecture" src="https://github.com/user-attachments/assets/f328e4f4-e60f-4280-8038-9f4a9c54aba1" />
-
-
 # Documentation
 The aim is to allow users to download, train, and
 use AI models and agents on their mobile phones without difficulty. This is
@@ -20,6 +16,8 @@ simplifies the process of managing AI models. This setup not only makes AI
 technology more accessible but also encourages users to explore and experiment
 with AI in a way that is convenient and straightforward, right from the palm of
 their hands.
+
+<img width="1920" height="1080" alt="Architecture" src="https://github.com/user-attachments/assets/f328e4f4-e60f-4280-8038-9f4a9c54aba1" />
 
 
 ### [Download NAME v1.0.4.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.4/NAME.v1.0.4.apk)
