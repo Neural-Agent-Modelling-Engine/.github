@@ -1,12 +1,12 @@
-<div align="center">
-  
+
 # SAS.6 NAME
 
 </div>
 
+<img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://github.com/user-attachments/assets/7f333231-a3bd-4087-a20c-a2b880d14a13" />
+
 
 <img width="1920" height="1080" alt="Architecture" src="https://github.com/user-attachments/assets/f328e4f4-e60f-4280-8038-9f4a9c54aba1" />
-
 
 
 # Documentation
