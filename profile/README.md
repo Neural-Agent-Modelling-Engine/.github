@@ -81,7 +81,7 @@ The `nsummary.sh` script generates a detailed summary of the installation proces
 
 <hr>
 
-# Copy And Paste This Command To Install NAME On Your Terminal
+# Copy And Paste This Command On Your Terminal To Install NAME
 
 ```bash
 bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
