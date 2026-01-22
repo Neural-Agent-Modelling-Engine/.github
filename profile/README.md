@@ -29,7 +29,15 @@ their hands.
 
 </div>
 
----
+
+<hr>
+
+# Copy And Paste This Command On Your Terminal To Install NAME
+
+```bash
+bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
+```
+
 
 # Ubuntu Install Script (llama.cpp + Modules)
 
@@ -79,12 +87,5 @@ The `fetch.sh` script retrieves important files such as **names.h** and **bridge
 
 The `nsummary.sh` script generates a detailed summary of the installation process. It outlines the **root directory**, **build directory (CLI)**, the **downloaded model**, and the fetched bash scripts, including **name.sh** and **bridge.log**, providing a clear overview of the setup status.
 
-<hr>
-
-# Copy And Paste This Command On Your Terminal To Install NAME
-
-```bash
-bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
-```
 
 
