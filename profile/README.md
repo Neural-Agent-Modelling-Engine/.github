@@ -39,7 +39,7 @@ bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh
 ```
 
 
-# Ubuntu Install Script (llama.cpp + Modules)
+# Terminal Install Script (llama.cpp + Modules)
 
 
 ### 1. **nsetup.sh**
