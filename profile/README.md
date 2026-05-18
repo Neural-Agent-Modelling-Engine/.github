@@ -2,44 +2,18 @@
 # SAS.6 NAME
 
 </div>
+The aim of this project is to allow users to download, train, and use AI models and agents on their mobile phones without difficulty. This is achieved by taking advantage of the features offered by Linux through the Termux application. Termux is a powerful tool that provides a Linux environment on mobile devices, making it possible for users to work with AI directly on their phones. With Termux, users can access a wide range of Linux capabilities, which simplifies the process of managing AI models. This setup not only makes AI technology more accessible but also encourages users to explore and experiment with AI in a way that is convenient and traightforward, right from the palm of their hands.
 
-<img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Assets/refs/heads/main/NAME%20Screens%20.png" />
-
-# Documentation
-The aim is to allow users to download, train, and
-use AI models and agents on their mobile phones without difficulty. This is
-achieved by taking advantage of the features offered by Linux through the
-Termux application. Termux is a powerful tool that provides a Linux environment
-on mobile devices, making it possible for users to work with AI directly on their
-phones. With Termux, users can access a wide range of Linux capabilities, which
-simplifies the process of managing AI models. This setup not only makes AI
-technology more accessible but also encourages users to explore and experiment
-with AI in a way that is convenient and straightforward, right from the palm of
-their hands.
+[Download NAME Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases)
 
 <img width="1920" height="1080" alt="Architecture" src="https://github.com/user-attachments/assets/f328e4f4-e60f-4280-8038-9f4a9c54aba1" />
+<img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Assets/refs/heads/main/NAME%20Screens%20.png" />
 
-
-### [Download NAME v1.0.4.apk - Latest Version ](https://github.com/Neural-Agent-Modelling-Engine/NAME/releases/download/v1.0.4/NAME.v1.0.4.apk)
-
-<div align="center" style="max-width: 520px; margin: auto;">
-  
-![v1 0 4](https://github.com/user-attachments/assets/21756b7c-2090-452c-ab3e-98c9affd8161)
-
-
+<div align="center" style="max-width: 520px; margin: auto;"> 
 </div>
-
-
 <hr>
 
-# Copy And Paste This Command On Your Terminal To Install NAME
-
-```bash
-bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
-```
-
-
-# Terminal Install Script (llama.cpp + Modules)
+# Terminal Install Script (llama.cpp + Modules) Documentation
 
 
 ### 1. **nsetup.sh**
@@ -87,5 +61,10 @@ The `fetch.sh` script retrieves important files such as **names.h** and **bridge
 
 The `nsummary.sh` script generates a detailed summary of the installation process. It outlines the **root directory**, **build directory (CLI)**, the **downloaded model**, and the fetched bash scripts, including **name.sh** and **bridge.log**, providing a clear overview of the setup status.
 
+<hr>
+Copy and Paste this command on your Terminal to install NAME
 
+```bash
+bash -c 'DIR=${1:-NAME}; for f in nsetup.sh ndependencies.sh nclone.sh nbuild.sh nselect.sh ndownload.sh nfetch.sh nsummary.sh; do curl -fsSL "https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Scripts/main/Modules/$f" | bash -s -- "$DIR" || exit 1; done' --
+```
 
