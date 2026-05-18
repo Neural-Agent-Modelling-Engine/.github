@@ -3,7 +3,7 @@
 
 </div>
 
-<img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://github.com/user-attachments/assets/7f333231-a3bd-4087-a20c-a2b880d14a13" />
+<img width="2560" height="1440" alt="NAME Arrangements No Logo (3)" src="https://raw.githubusercontent.com/Neural-Agent-Modelling-Engine/Assets/refs/heads/main/NAME%20Screens%20.png" />
 
 # Documentation
 The aim is to allow users to download, train, and
